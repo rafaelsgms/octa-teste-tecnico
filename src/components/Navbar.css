@@ -1,0 +1,20 @@
+.ul-weather {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+
+    height: 80px;
+    width: 100%;
+    background-color: rgb(155, 161, 165);
+    padding: 10px;
+    font-weight: thin;
+    font-size: 30px;
+}
+
+li:hover {
+    opacity: .5;
+}
